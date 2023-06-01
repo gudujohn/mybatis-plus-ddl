@@ -16,3 +16,8 @@
 @TableField(value = "test_field", columnDefinition = "varchar(255) NULL DEFAULT NULL comment '测试属性'")
 private String testField;
 ```
+
+## 数据库支持列表
+
+- mysql, sqlite
+- 其他数据可以自行增加对应的DdlGenerate
