@@ -1,13 +1,13 @@
-# enhance-mybatis-plus
+# mybatis-plus-ddl
 
 ## 提供基于mybatis-plus的ddl操作
 
 ## 使用
 
 1. 基础使用和mybatis-plus一摸一样
-2. ddl操作启动类上加上@EnableAutoDdl注解标识启用ddl功能
+2. 启用ddl功能：启动类上加上@EnableAutoDdl注解
 
-### TableField
+### @TableField
 
 - 默认会根据model的java类型映射对应的数据库类型
 - 自定义数据类型可以通过配置TableField注解的columnDefinition实现
